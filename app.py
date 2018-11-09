@@ -22,7 +22,7 @@ def sys_runtime_check():
         return True
 
 
-if sys_runtime_check() is True:
+if sys_runtime_check():
     bin_loc = os.getcwd()
 else:
     bin_loc = sys._MEIPASS
